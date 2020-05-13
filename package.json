@@ -93,17 +93,15 @@
     "node": "^10 || ^12"
   },
   "dependencies": {
-    "@plone/volto": "plone/volto#newrazzle",
+    "@plone/volto": "plone/volto#6014cb65e736ea96128391c873feadd3766de03e",
     "mrs-developer": "1.1.6"
   },
   "devDependencies": {
-    "eslint-plugin-prettier": "3.1.2",
-    "prettier": "1.19.1",
-    "stylelint-config-idiomatic-order": "7.0.3",
-    "stylelint-config-prettier": "6.0.0",
-    "stylelint-prettier": "1.1.1"
-  },
-  "resolutions": {
-    "@plone/volto/razzle/webpack-dev-server": "3.2.0"
+    "eslint-plugin-prettier": "3.1.3",
+    "prettier": "2.0.5",
+    "stylelint": "13.3.3",
+    "stylelint-config-idiomatic-order": "8.1.0",
+    "stylelint-config-prettier": "8.0.1",
+    "stylelint-prettier": "1.1.2"
   }
 }
