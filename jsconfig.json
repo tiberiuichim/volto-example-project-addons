@@ -1,8 +1,8 @@
 {
     "compilerOptions": {
         "paths": {
-            "volto-testaddon": [
-                "addons/volto-testaddon/src"
+            "volto-slate": [
+                "addons/volto-slate/src"
             ]
         },
         "baseUrl": "src"

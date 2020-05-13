@@ -1,7 +1,7 @@
 {
-  "volto-testaddon": {
-    "package": "volto-testaddon",
-    "url": "https://github.com/sneridagh/volto-testaddon",
+  "volto-slate": {
+    "package": "volto-slate",
+    "url": "https://github.com/eea/volto-slate",
     "path": "src"
   }
 }

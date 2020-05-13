@@ -5,10 +5,10 @@
   "version": "4.0.0",
   "private": true,
   "workspaces": [
-    "src/addons/volto-testaddon"
+    "src/addons/volto-slate"
   ],
   "addons": [
-    "volto-testaddon"
+    "volto-slate"
   ],
   "scripts": {
     "develop:npx": "npx -p mrs-developer missdev --config=jsconfig.json --output=addons",
@@ -93,7 +93,7 @@
     "node": "^10 || ^12"
   },
   "dependencies": {
-    "@plone/volto": "plone/volto#master",
+    "@plone/volto": "plone/volto#newrazzle",
     "mrs-developer": "1.1.6"
   },
   "devDependencies": {
@@ -101,7 +101,8 @@
     "prettier": "1.19.1",
     "stylelint-config-idiomatic-order": "7.0.3",
     "stylelint-config-prettier": "6.0.0",
-    "stylelint-prettier": "1.1.1"
+    "stylelint-prettier": "1.1.1",
+    "webpack-dev-server": "3.11.0"
   },
   "resolutions": {
     "@plone/volto/razzle/webpack-dev-server": "3.2.0"

@@ -11,32 +11,28 @@
  *   }
  * }
  */
+import * as voltoConfig from '@plone/volto/config';
 
-import {
-  settings as defaultSettings,
-  views as defaultViews,
-  widgets as defaultWidgets,
-  blocks as defaultBlocks,
-} from '@plone/volto/config';
+import { applyConfig as installVoltoSlate } from 'volto-slate/config';
+import installLinkPlugin from 'volto-slate/editor/plugins/Link';
 
-import { DummyView } from 'volto-testaddon/components';
+const config = [installVoltoSlate, installLinkPlugin].reduce(
+  (acc, apply) => apply(acc),
+  voltoConfig,
+);
 
 export const settings = {
-  ...defaultSettings,
+  ...config.settings,
 };
 
 export const views = {
-  ...defaultViews,
-  contentTypesViews: {
-    ...defaultViews.contentTypesViews,
-    Document: DummyView,
-  },
+  ...config.views,
 };
 
 export const widgets = {
-  ...defaultWidgets,
+  ...config.widgets,
 };
 
 export const blocks = {
-  ...defaultBlocks,
+  ...config.blocks,
 };
