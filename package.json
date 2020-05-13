@@ -102,7 +102,7 @@
     "stylelint-config-idiomatic-order": "7.0.3",
     "stylelint-config-prettier": "6.0.0",
     "stylelint-prettier": "1.1.1",
-    "webpack-dev-server": "3.11.0"
+    "webpack-dev-server": "3.2.0"
   },
   "resolutions": {
     "@plone/volto/razzle/webpack-dev-server": "3.2.0"
